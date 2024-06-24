@@ -2,84 +2,102 @@
 
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Jonathan Lam's Portfolio Website</title>
         <link rel="stylesheet" href="../static/style.css">
     </head>
     <body>
-        <header>Jonathan Lam</header>
-        <hr />
-        <!-- About me -->
-        <div class="sectionContainer">
-            <h1 class="title">About me</h1>
-            <p>
-                Hi! My name is Jonathan Lam, and I'm a second-year studying computer science at the University of Virginia.
-                I have a deep passion for computer programming and developing technical solutions for real-world problems.
-                In my spare time, I enjoy playing & watching basketball, rock climbing, going to the gym, and gardening. 
-            </p>
-            <br>
-            <!-- Hyperlink email -->
-            <p>
-                I'm always looking for new opportunities to learn and grow within the software development field.
-                Please feel free to contact me at <a href="">jonhaolam@gmail.com</a>
-            </p>
-        </div>
-        <!-- Projects -->
-        <div class="sectionContainer">
-            <h1 class="title">Projects:</h1>
-            <p class="projectDate">June 2024</p>
-            <a href="pomodoro.html" class="projectName">Pomodoro Browser Extension (In-progress)</a>
-            <p class="projectDate">February 2024</p>
-            <a href="nutrition.html" class="projectName">Nothing but Nutrition</a>
-            <br>
-            <p class="projectDate">January 2024</p>
-            <a href="ASCII.html" class="projectName">Image to ASCII Converter</a>
-            <br>
-            <p class="projectDate">October 2023</p>
-            <a href="wordle.html" class="projectName">Wordle</a>
-        </div class>
-        <!-- Skills -->
-        <div class="sectionContainer">
-            <h1 class="title">Skills</h1>
-            <div class="subheaderContainer">
-                <h2 class="subheader">Languages & Frameworks</h2>
-                <ul class="list">
-                    <li>Python</li>
-                    <li>Java</li>
-                    <li>JavaScript</li>
-                    <li>C</li>
-                    <li>Bash</li>
-                    <li>Django</li>
-                    <li>Flask</li>
-                </ul>
+        <div class="container">
+            <header>Jonathan Lam</header>
+            <hr />
+            <!-- About me -->
+            <div class="aboutContainer">
+                <div class="textContainer">
+                    <h1 class="title">About me</h1>
+                    <p>
+                        Hi! My name is Jonathan Lam, and I'm a second-year studying computer science at the University of Virginia.
+                        I have a deep passion for computer programming and developing technical solutions for real-world problems.
+                        In my spare time, I enjoy playing & watching basketball, rock climbing, going to the gym, and gardening. 
+                    </p>
+                    <br>
+                    <!-- Hyperlink email -->
+                    <p>
+                        I'm always looking for new opportunities to learn and grow within the software development field.
+                        Please feel free to contact me at <a href="">jonhaolam@gmail.com</a>.
+                    </p>
+                </div>
+                <div class="imgContainer">
+                    <img src="../static/images/IMG_3499.JPEG">
+                </div>
             </div>
-            <div class="subheaderContainer">
-                <h2 class="subheader">Tools</h2>
-                <ul class="list">
-                    <li>Visual Studio Code</li>
-                    <li>PyCharm</li>
-                    <li>Git</li>
-                    <li>Linux</li>
-                    <li>MySQL Workbench</li>
-                </ul>
+            <hr />
+            <!-- Projects -->
+            <div class="projectsContainer">
+                <h1 class="title">Projects:</h1>
+                <div class="project">
+                    <p class="projectDate">June 2024</p>
+                    <a href="pomodoro.html" class="projectName">Pomodoro Browser Extension (In-progress)</a>
+                </div>
+                <br>
+                <div class="project">
+                    <p class="projectDate">February 2024</p>
+                    <a href="nutrition.html" class="projectName">Nothing but Nutrition</a>
+                </div>
+                <br>
+                <div class="project">
+                    <p class="projectDate">January 2024</p>
+                    <a href="ASCII.html" class="projectName">Image to ASCII Converter</a>
+                </div>
+                <br>
+                <div class="project">
+                    <p class="projectDate">October 2023</p>
+                    <a href="wordle.html" class="projectName">Wordle</a>
+                </div>
             </div>
-            <div class="subheaderContainer">
-                <h2 class="subheader">Libraries</h2>
-                <ul class="list">
-                    <li>OpenCV</li>
-                    <li>Pyzbar</li>
-                    <li>Pillow</li>
-                    <li>NumPy</li>
-                    <li>Matplotlib</li>
-                </ul>
+            <hr />
+            <!-- Skills -->
+            <div class="sectionContainer">
+                <h1 class="title">Skills</h1>
+                <div class="subheaderContainer">
+                    <h2 class="subheader">Languages & Frameworks</h2>
+                    <ul class="list">
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>JavaScript</li>
+                        <li>C</li>
+                        <li>Bash</li>
+                        <li>Django</li>
+                        <li>Flask</li>
+                    </ul>
+                </div>
+                <div class="subheaderContainer">
+                    <h2 class="subheader">Tools</h2>
+                    <ul class="list">
+                        <li>Visual Studio Code</li>
+                        <li>PyCharm</li>
+                        <li>Git</li>
+                        <li>Linux</li>
+                        <li>MySQL Workbench</li>
+                    </ul>
+                </div>
+                <div class="subheaderContainer">
+                    <h2 class="subheader">Libraries</h2>
+                    <ul class="list">
+                        <li>OpenCV</li>
+                        <li>Pyzbar</li>
+                        <li>Pillow</li>
+                        <li>NumPy</li>
+                        <li>Matplotlib</li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <!-- Contact -->
-        <hr />
-        <footer>
-            <h1>Contact me!</h1>
-            <a href="https://www.linkedin.com/in/jonathanlam2/"><img id="LinkedIn" src="../static/images/linkedin.png" alt="Jonathan Lam's LinkedIn"></a>
-            <a href="https://github.com/Jonuhthan"><img id="GitHub" src="../static/images/github.png" alt="Jonathan Lam's GitHub"></a>
-        </footer>
+            <!-- Contact -->
+            <hr />
+            <footer>
+                <h1>Contact me!</h1>
+                <a href="https://www.linkedin.com/in/jonathanlam2/"><img id="linkedin" src="../static/images/linkedin.png" alt="Jonathan Lam's LinkedIn"></a>
+                <a href="https://github.com/Jonuhthan"><img id="github" src="../static/images/github.png" alt="Jonathan Lam's GitHub"></a>
+            </footer>
+        </div> 
     </body>
 </html>
