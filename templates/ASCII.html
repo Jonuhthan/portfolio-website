@@ -13,19 +13,18 @@
         <div class="container">
             <header>Jonathan Lam</header>
             <hr />
-            <div class="project">
-                <div class="projectTextContainer">
-                    <h1 class="title">Image to ASCII Art 🎨</h1>
-                    <p>
-                        This program creates command line ASCII art out of sample images. It works by feeding in a photo and extracting the RGB values of each individual pixel,
-                        storing them in a 2-D array representation of the image. These values are then fed through a brightness scale that determines which ASCII character will
-                        be used to represent this pixel. Bolder characters such as the "$" or "@" have a greater brightness than "'" or ",". With the 2-D array replaced with ASCII
-                        characters, all that's left is to reconstruct them to the terminal in the same order they came in.
-                    </p>
-                </div>
-                
-                <div class="sourceCodeContainer">
-                    <pre><code class="python">from PIL import Image
+            <div class="projectTextContainer">
+                <h1 class="title">Image to ASCII Art 🎨</h1>
+                <p>
+                    This program creates command line ASCII art out of sample images. It works by feeding in a photo and extracting the RGB values of each individual pixel,
+                    storing them in a 2-D array representation of the image. These values are then fed through a brightness scale that determines which ASCII character will
+                    be used to represent this pixel. Bolder characters such as the "$" or "@" have a greater brightness than "'" or ",". With the 2-D array replaced with ASCII
+                    characters, all that's left is to reconstruct them to the terminal in the same order they came in.
+                </p>
+            </div>
+            
+            <div class="sourceCodeContainer">
+                <pre><code class="python">from PIL import Image
 
 # Length of 65
 ascii = '`^\",:;Il!i~+_-?][}{1)(|\\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$'
@@ -77,7 +76,6 @@ pixels = get_matrix(img)
 bright_matrix = brightness_scale(pixels)
 ascii_conversion = ascii_convert(bright_matrix)
 print_ascii_matrix(ascii_conversion)</code></pre>
-                </div>
             </div>
             <div class="projectDemoContainer">
                 <img src="../static/images/dog.png" alt="dog">

@@ -126,6 +126,13 @@ header {
     padding-bottom: 0;
 }
 
+#wordleDemo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
 .caption {
     text-align: center;
     font-size: 18px;
