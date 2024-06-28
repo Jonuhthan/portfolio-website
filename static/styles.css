@@ -110,9 +110,27 @@ header {
 }
 
 .sourceCodeContainer {
+    font-size: 18px;
+}
+
+.projectDemoContainer {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.projectDemoContainer > img {
+    width: 50%;
+    height: auto;
+    padding-bottom: 0;
+}
+
+.caption {
     text-align: center;
     font-size: 18px;
 }
+
 #nbnDemoVid {
     margin-top: 25px;
     width: 100%;
