@@ -18,12 +18,12 @@ p {
     height: 50px;
     padding: 20px;
     color:#031C6C;
-    transition: 200ms;
+    transition: 500ms;
 }
 
 #navButton:hover {
     /* Creates "bouncing" motion when cursor hovers */
-    transform: translateY(-10px);
+    transform: scale(1.2);
 }
 
 #menuContainer {
